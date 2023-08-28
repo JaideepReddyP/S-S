@@ -1,4 +1,4 @@
-function [x, n] = stepsig(n0, n1, n2)
-n = [n1:n2];
-x = [(n-n0) >= 0];
+function [x, n] = stepsig(step_start, range_start, range_end)
+n = [range_start:range_end];
+x = [(n-step_start) >= 0];
 end

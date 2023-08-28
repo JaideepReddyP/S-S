@@ -1,4 +1,4 @@
-function[y, n] = sigshift(x, m, n0)
+function[y, n] = sigshift(x, nx, shift)
 y = x;
-n = m + n0;
+n = nx + shift;
 end
