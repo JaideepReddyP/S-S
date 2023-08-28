@@ -1,4 +1,4 @@
-function [x, n] = impsig(n0, n1, n2)
-n = [n1:n2];
-x = [(n-n0) == 0];
+function [x, n] = impsig(imp_at, range_start, range_end)
+n = [range_start:range_end];
+x = [(n-imp_at) == 0];
 end
